@@ -1,0 +1,74 @@
+header{
+    background: url("imagens/bg.jpg");
+    padding: 20px 0px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline ;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+}
+
+nav a:hover {
+    color: darkblue;
+    text-decoration: underline;
+
+} 
+
+footer {
+    text-align: center;
+    background: url("imagens/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white; 
+    font-size: 15px;   
+    margin: 20px 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px auto;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 5px 10px;
+    width: 50%;
+}
+
+.check {
+    margin: 20px 0;
+}
