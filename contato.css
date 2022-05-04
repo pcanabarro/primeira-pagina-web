@@ -92,7 +92,7 @@ select {
 .enviar {
     width: 40%;
     padding: 15px 0;
-    background-color: orange;
+    background-color: rgb(69, 69, 202);
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -103,7 +103,7 @@ select {
 }
 
 .enviar:hover {
-    background-color: orangered;
+    background-color: darkblue;
     transform: scale(1.1);
 }
 
