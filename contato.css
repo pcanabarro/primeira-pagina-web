@@ -56,10 +56,14 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+legend {
+    padding: 20px 0 10px 0 ;
+}
+
+form label, form legend {
     display: block;
     font-size: 20px;
-    margin: 0 0 10px auto;
+    margin: 0 0 10px ;
 }
 
 .input-padrao {
@@ -69,6 +73,53 @@ form label, form p {
     width: 50%;
 }
 
+p {
+    font-size: 20px;
+    padding: 10px 0 5px 0;
+}
+
+select {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px 0 10px auto ;
+}
+
 .check {
-    margin: 20px 0;
+    margin: 10px 0 20px 0;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    transition: 500ms all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: orangered;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 8px 15px;
+    text-align: center;
 }
