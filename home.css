@@ -2,7 +2,7 @@ header {
     background: url("imagens/bg.jpg");
     padding: 20px 0px;
 }
-
+/* Problema aqui na ordem */
 .caixa {
     position: relative;
     width: 940px;
@@ -11,21 +11,15 @@ header {
 
 nav {
     position: absolute;
-    top: 50px;
+    top: 110px;
     right: 0;
 }
+/* Problema aqui na ordem FIM*/
 
 nav li {
     display: inline ;
     margin: 0 0 0 15px;
 }
-
-nav a:hover {
-    color: darkblue;
-    text-decoration: underline;
-
-} 
-
 
 nav a {
     text-transform: uppercase;
@@ -35,50 +29,61 @@ nav a {
     color: white;
 }
 
-#banner {
+nav a:hover {
+    color: darkblue;
+    text-decoration: underline;
+} 
+
+.banner {
     text-align: center;
     width: 100%;
 }
 
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
 .titulo-principal {
-    padding-left: 20px;
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em 0;
+    clear: left;
 }
 
 .principal  {
-    background: #cccccc;
+    text-align: center;
     padding: 20px 0px 30px 0px;
 }
 
-p {
-    text-align: center;
-    padding: 6px;
+.principal p {
+    margin: 0 0 1em;
 }
 
-#missao {
+.missao {
     font-size: 20px
 }
 
-em b{
+.principal b{
+    font-weight: bold;
     color: red;
 }
 
-.titulo-centralizado {
-    font-size: 30px;
-    padding: 10px 0;
-    text-align: center;
+.principal em {
+    font-style: italic;
 }
 
-h3.titulo-centralizado {
-    border: 2px solid black;
-    border-radius: 10px;
-    margin: 30px 40%;
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 10px;
 }
 
 .itens {
     font-style: italic;
 }
 
-ul {
+.itens ul {
     display: inline-block;
     vertical-align: top;
     font-size: 30px;
@@ -99,7 +104,7 @@ ul {
 footer {
     background: url("imagens/bg.jpg");
     text-align: center;
-    padding: 40px 0;
+    padding: 25px 0;
 }
 
 .copyright {
